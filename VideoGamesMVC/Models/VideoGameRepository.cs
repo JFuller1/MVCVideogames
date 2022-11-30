@@ -361,5 +361,18 @@ namespace VideoGamesMVC.Models
             FromSoftware.AddGame(EldenRing);
             pc.AddGame(EldenRing);
         }
+
+        public VideoGame GetVideoGame(string name)
+        {
+            foreach(VideoGame videoGame in VideoGames)
+            {
+                if(videoGame.Title == name)
+                {
+                    return videoGame;
+                }
+            }
+
+            return null;
+        }
     }
 }

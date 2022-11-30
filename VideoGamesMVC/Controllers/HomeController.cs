@@ -24,6 +24,12 @@ namespace VideoGamesMVC.Controllers
             return View(games);
         }
 
+        public IActionResult GameInfo(string game)
+        {
+            VideoGame vGame = new VideoGameRepository().GetVideoGame(game);
+            return View(vGame);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
