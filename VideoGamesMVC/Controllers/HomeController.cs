@@ -18,9 +18,10 @@ namespace VideoGamesMVC.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Games()
         {
-            return View();
+            var games = new VideoGameRepository().VideoGames;
+            return View(games);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jaeden\\source\\repos\\VideoGamesMVC\\VideoGamesMVC\\VideoGamesMVC.csproj",
+      "projectUniqueName": "C:\\Users\\Jaeden\\Documents\\VideoGamesMVC\\VideoGamesMVC\\VideoGamesMVC.csproj",
       "projectName": "VideoGamesMVC",
-      "projectPath": "C:\\Users\\Jaeden\\source\\repos\\VideoGamesMVC\\VideoGamesMVC\\VideoGamesMVC.csproj",
+      "projectPath": "C:\\Users\\Jaeden\\Documents\\VideoGamesMVC\\VideoGamesMVC\\VideoGamesMVC.csproj",
       "packagesPath": "C:\\Users\\Jaeden\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jaeden\\source\\repos\\VideoGamesMVC\\VideoGamesMVC\\obj\\",
+      "outputPath": "C:\\Users\\Jaeden\\Documents\\VideoGamesMVC\\VideoGamesMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jaeden\\AppData\\Roaming\\NuGet\\NuGet.Config",

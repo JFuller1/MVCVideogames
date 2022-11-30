@@ -1,0 +1,13 @@
+﻿@model HashSet<VideoGame>
+
+@{
+    ViewData["Title"] = "Games";
+}
+<h1>@ViewData["Title"]</h1>
+
+<ul>
+    @foreach(var game in Model)
+    {
+        <li><a>@game.Title</a></li>
+    }
+</ul>
