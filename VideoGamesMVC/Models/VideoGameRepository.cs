@@ -366,7 +366,7 @@ namespace VideoGamesMVC.Models
         {
             foreach(VideoGame videoGame in VideoGames)
             {
-                if(videoGame.Title == name)
+                if(videoGame.Title == name.Replace("%20", " "))
                 {
                     return videoGame;
                 }
